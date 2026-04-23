@@ -8,12 +8,12 @@ def Two_sum(arr, target):
 
 n = int(input("Enter the total Elements in Array"))
 arr = []
+
 for i in range(n):
     num = int(input("Enter Elements!!"))
     arr.append(num)
 
 target = int(input("Enter Target Number! "))
-
 print("Pairs: ",Two_sum(arr, target))
 
         
