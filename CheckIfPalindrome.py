@@ -5,7 +5,7 @@ def If_palindrome(str):
     
     return rev
 Name = str(input("Enter the Name! "))
-if Name == If_palindrome(Name.lower()):
+if Name == If_palindrome(Name):
     print("It is a Palinedrome!! ")
 
 else:
